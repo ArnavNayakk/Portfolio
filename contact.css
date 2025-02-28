@@ -1,0 +1,200 @@
+*{
+  margin: 0px;
+}
+header{
+  position: fixed;
+  z-index: 1000;
+}
+.navbar{
+  height: 120px;
+  width: 1520px;
+  background-color: white;
+  display:flex;
+  align-items: center;
+}
+a{
+  color: black;
+}
+.hsquare{
+  background-color: blue;
+  height: 20px;
+  width: 20px;
+  margin-left: 40px;
+
+}
+.myname{
+  padding-left: 20px;
+  font-family: "Roboto", system-ui;
+  font-weight: 370;
+  font-style: normal;
+}
+.im{
+  padding-top: 10px;
+  padding-left: 5px;
+  font-family: "Roboto", system-ui;
+font-weight: 370;
+font-style: normal;
+}
+.tittle{
+  display:flex;
+  align-items: center;
+  padding-left: 600px;
+  font-family: "Roboto", system-ui;
+  font-weight: 370;
+  font-style: normal;
+  
+  
+}
+a{
+  text-decoration: none;
+}
+.aboutme {
+  padding-right: 25px;
+}
+.resume {
+  padding-right: 25px;
+}
+.project {
+  padding-right: 25px;
+}
+main{
+    width: 100%px;
+    height: 1000px;
+    background-color: #e6dace;
+    font-family: "Roboto", system-ui;
+    font-weight: 370;
+    font-style: normal;
+}
+
+.mainhead{
+  display: flex;
+  justify-content: center;
+  padding-top: 230px;
+  
+  font-family: "Roboto", system-ui;
+font-weight: 100;
+font-style: normal;
+}
+.square{
+  background-color: blue;
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    margin-right: 8px;
+}
+.form-container {
+    font-family: "Roboto", system-ui;
+    font-weight: 480;
+    font-style: normal;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+  }
+ h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+.input-row {
+    display: flex;
+    justify-content: space-between;
+  }
+   .input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 18px;
+    border-color: blue;
+  }
+  
+  .input-group label {
+    margin-bottom: 15px;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-msg {
+    color: red;
+    font-size: 0.9em;
+  }
+input[type=text]{
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid black;
+   outline: none;
+    color: blue;
+  }
+  input[type=text]:hover{
+    border-color:blue;
+  }
+  #message{
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid black;
+    color:blue;
+  }
+  #message:hover{
+    border-bottom: 1.5px solid blue;
+  }
+  footer{
+    height: 130px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  font-family: "Roboto", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+footer{
+    height: 130px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  font-family: "Roboto", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+.follow{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 40px;
+    margin-left: -40px;
+    padding-top: 15px;
+}
+.call p{
+    margin-left:-40px;
+    padding-top: 15px;
+}
+.gmail p{
+    margin-left:-60px;
+    padding-top: 15px;
+}
+.follow i:hover{
+    cursor: pointer;
+}
+
+  

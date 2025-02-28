@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+}
+header{
+    position: fixed;
+    z-index: 1000;
+}
+.navbar{
+    height: 120px;
+    width: 1520px;
+    background-color: white;
+    display:flex;
+    align-items: center;
+}
+a{
+    color: black;
+}
+.hsquare{
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+    margin-left: 40px;
+
+}
+.myname{
+    padding-left: 20px;
+    font-family: "Roboto", system-ui;
+    font-weight: 370;
+    font-style: normal;
+}
+.im{
+    padding-top: 10px;
+    padding-left: 5px;
+    font-family: "Roboto", system-ui;
+  font-weight: 370;
+  font-style: normal;
+}
+.tittle{
+    display:flex;
+    align-items: center;
+    padding-left: 600px;
+    font-family: "Roboto", system-ui;
+    font-weight: 370;
+    font-style: normal;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+.aboutme {
+    padding-right: 25px;
+}
+.resume {
+    padding-right: 25px;
+}
+.project {
+    padding-right: 25px;
+}
+main{
+    width: 100%;
+    height: 2570px;
+    background-color: #E6DACE;
+    
+
+}
+.mainhead{
+    display: flex;
+    justify-content: center;
+    padding-top: 230px;
+    
+    font-family: "Roboto", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+.square{
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    margin-right: 8px;
+    
+}
+.mainhead1{
+    display: flex;
+ margin-top: 100px;
+ gap: 300px
+
+}
+.tittle1{
+margin-left: 360px
+
+}
+.download{
+    color: white;
+    margin-top: 14px;
+    border-radius: 23px;
+    height: 35px;
+    width: 140px;
+    background-color: blue;
+    margin-left: 195px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    font-family: "Roboto", system-ui;
+    font-weight: 370;
+    font-style: normal;
+}
+.download:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+    cursor: pointer;
+}
+.experience{
+    display: flex;
+}
+.experience{
+    font-family: "Roboto", system-ui;
+    font-weight: 370;
+    font-style: normal;
+      height: 400px;
+      width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
+      padding-top:30px;
+      background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: white;
+}
+.content p{
+    font-family: "Roboto", system-ui;
+    font-weight: 370;
+    font-style: normal;
+    height: 400px;
+    width: 400px;
+    line-height: 25px;
+    margin-left: 150px;
+}
+.experience h2,p{
+    padding-top: 20px;
+    margin-left: 40px; 
+    
+    }
+
+.collage{
+    font-family: "Roboto", system-ui;
+  font-weight: 370;
+  font-style: normal;
+    height: 610px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-top:30px;
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+background-color: white;
+    
+}
+
+
+    .collage h2,p{
+    padding-top: 20px;
+    margin-left: 40px; 
+    
+    }
+    .twelth{
+        padding-top:50px;
+    }
+        .twelth h2,h6,h5{
+        padding-top: 20px;
+        margin-left: 40px; 
+        }
+  .skilltittle , .education{
+    margin-top: 90px;
+    margin-left: 360px;
+  }      
+.skill{
+    height: 580px;
+    width: 800px;
+    font-family: "Roboto", system-ui;
+    font-weight: 370;
+    font-style: normal;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+background-color: white;
+}
+
+
+.tittle2 , .tittle3, .tittle4{
+   padding-top: 30px;
+   padding-left: 40px;
+   font-family: "Roboto", system-ui;
+   font-weight: 370;
+   font-style: normal;
+}
+pre{
+    font-family: "Roboto", system-ui;
+    font-weight: 600;
+    font-style: normal;
+}
+.sq1 , .sq2{
+    height: 10px;
+    width: 10px;
+    background-color: blue;
+    margin-top: 6px;
+ 
+}
+.sq1{
+    margin-left: 40px;
+}
+.sq2{
+    margin-left: 500px;
+}
+.lang1, .lang2, .lang3, .input1, .input2,.lib{
+    display: flex;
+    margin-top: 30px;
+    gap: 25px;
+    
+
+}
+.lang2 .sq2{
+    margin-left: 483px;
+}
+h5, h1{
+    font-family: "Roboto", system-ui;
+    font-weight: 750;
+    font-style: normal;
+}
+
+footer{
+    height: 130px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  font-family: "Roboto", system-ui;
+  font-weight: 370;
+  font-style: normal;
+}
+.follow{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 40px;
+    margin-left: -40px;
+    padding-top: 15px;
+}
+.call p{
+    margin-left:-40px;
+    padding-top: 15px;
+}
+.gmail p{
+    margin-left:-60px;
+    padding-top: 15px;
+}
+.follow i:hover{
+    cursor: pointer;
+}
+
+

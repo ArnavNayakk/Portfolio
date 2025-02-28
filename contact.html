@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link href="contact.css" rel="stylesheet" >
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            
+            <div class="hsquare">
+
+            </div>
+            <div class="myname">
+                <h1>Arnav Nayak</h1>
+            </div>
+            <div class="im">
+                / SOFTWARE ENGINEER
+            </div>
+        
+            <div class="tittle">
+                <a class="aboutme" href="index.html">ABOUT ME</a>
+                <a class="resume" href="resume.html">RESUME</a>
+                <a class="project" href="project.html">PROJECT</a>
+                <a class="contact" href="contact.html">CONTACT</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="mainhead">
+            <div class="square"></div>
+             <div class="heading">
+                <h1>Lets's talk</h1>
+             </div>
+        </div>
+        <div class="form-container">
+            
+            <form id="contactForm">
+              <div class="input-row">
+                <div class="input-group">
+                  <label for="firstName">First Name*</label>
+                  <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="input-group">
+                  <label for="lastName">Second Name*</label>
+                  <input type="text" id="lastName" name="lastName" required>
+                </div>
+              </div>
+
+              <div class="input-group">
+                <label for="email">Email*</label>
+                <input type="text" id="email" name="email" placeholder="yourname@gmail.com" required>
+                <small id="emailError" class="error-msg"></small>
+              </div>
+        
+              <!-- Subject field -->
+              <div class="input-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+        
+              <!-- Message field -->
+              <div class="input-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+        
+              <!-- Submit button -->
+              <button id="submit" type="submit">Send</button>
+            </form>
+        
+           
+        
+          <script src="contact.js"></script>
+    </main>
+    <footer>
+      <div class="call">
+          <h4>Call</h4>
+          <p>+91 9818698175</p>
+      </div>
+      <div class="gmail">
+          <h4>Gmail</h4>
+          <p>arnavnayak9818@gmail.com</p>
+      </div>
+      <div class="follows">
+          <h4>Follow</h4>
+          <div class="follow">
+              <div class="linkedin">
+                <a href="https://www.linkedin.com/in/arnav-nayak-276318319/">
+               <i class="fa-brands fa-linkedin-in fa-s" style="color: #040101;"></i>
+              </a>
+              </div>
+              <div class="insta">
+                  <i class="fa-brands fa-instagram fa-sm" style="color: #010409;"></i>
+              </div>
+              <div class="twitter">
+                <a href="https://x.com/Nayak_the_dream">
+                  <i class="fa-brands fa-twitter fa-sm" style="color: #010204;"></i>
+                </a>
+              </div>
+             
+           </div>
+      </div>
+  </footer>
+  
+</body>
