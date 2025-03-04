@@ -45,6 +45,22 @@ font-style: normal;
   
   
 }
+.tittle a {
+  color: #000; 
+  text-decoration: none;
+  transition: color 0.3s, box-shadow 0.3s; 
+}
+
+
+.tittle a:hover {
+  color: blue; 
+}
+
+
+.tittle a:active {
+  color: blue; 
+  box-shadow: 0 0 10px rgba(0, 102, 204, 0.5); 
+}
 a{
   text-decoration: none;
 }

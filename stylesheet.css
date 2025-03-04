@@ -60,6 +60,24 @@ a{
 .project {
     padding-right: 25px;
 }
+/* Default Link Styles */
+.tittle a {
+    color: #000; 
+    text-decoration: none;
+    transition: color 0.3s, box-shadow 0.3s; 
+}
+
+
+.tittle a:hover {
+    color: blue; 
+}
+
+
+.tittle a:active {
+    color: blue; 
+    box-shadow: 0 0 10px rgba(1, 73, 145, 0.5); 
+}
+
 main{
     display: flex;
 }

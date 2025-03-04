@@ -45,6 +45,22 @@ a{
     
     
 }
+.tittle a {
+    color: #000; 
+    text-decoration: none;
+    transition: color 0.3s, box-shadow 0.3s; 
+}
+
+
+.tittle a:hover {
+    color: blue; 
+}
+
+
+.tittle a:active {
+    color: blue; 
+    box-shadow: 0 0 10px rgba(0, 102, 204, 0.5); 
+}
 a{
     text-decoration: none;
 }
@@ -59,7 +75,7 @@ a{
 }
 main{
     width: 100%;
-    height: 2570px;
+    height: 2620px;
     background-color: #E6DACE;
     
 
@@ -91,7 +107,7 @@ main{
 margin-left: 360px
 
 }
-.download{
+.download {
     color: white;
     margin-top: 14px;
     border-radius: 23px;
@@ -187,7 +203,7 @@ background-color: white;
     margin-left: 360px;
   }      
 .skill{
-    height: 580px;
+    height: 680px;
     width: 800px;
     font-family: "Roboto", system-ui;
     font-weight: 370;
@@ -233,12 +249,12 @@ pre{
 .lang1, .lang2, .lang3, .input1, .input2,.lib{
     display: flex;
     margin-top: 30px;
-    gap: 25px;
+    gap: 30px;
     
 
 }
 .lang2 .sq2{
-    margin-left: 483px;
+    margin-left: 462px;
 }
 h5, h1{
     font-family: "Roboto", system-ui;
